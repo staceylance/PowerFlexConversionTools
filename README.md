@@ -7,3 +7,5 @@
     <ol><li>It will Export a .PF5 file that can be directly downloaded to the drive and imported into ConnectedComponents Workbench.</li></ol>
     <li>If you are going from a DeviceNet PF70 to an Ethernet PF525, You must run the <a href="https://github.com/staceylance/PowerFlexConversionTools/tree/main/DeviceNetConversionTool">DeviceNet Conversion Tool</a> first, then the Output CSV can be ran through the Conversion Tool.</li>
 </ol>
+
+Disclaimer: I am not accepting responsibility for equipment damage as a result of oversights when migrating. It has worked for me 12+ times, but I haven't proofed unusual parameters.
