@@ -13,8 +13,8 @@ File Structure:
              <li>DesiredNetworkPropertiesFile.HTML (Must be named 'Network Properties.html')</li>
            </ol>
         <li>01_Outputs</li>
+        <li>RSNetworxTool.py</li>
      </ol>
-  <li>RSNetworxTool.py</li>
 </ol>
 
 Running the Python File will perform 4 things:
