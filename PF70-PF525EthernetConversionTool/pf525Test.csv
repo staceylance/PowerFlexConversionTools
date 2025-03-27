@@ -1,0 +1,732 @@
+﻿Port,#,Name,Value,Units,Default,Min,Max
+0,1,Output Freq,0.00,Hz,0.00,0.00,500.00
+0,2,Commanded Freq,0.00,Hz,0.00,0.00,500.00
+0,3,Output Current,0.00,A,0.00,0.00,26.00
+0,4,Output Voltage,0.0,V,0.0,0.0,999.9
+0,5,DC Bus Voltage,653,VDC,0,0,1200
+0,6,Drive Status,00000000 00000010,,00000000 00000000,,
+0,7,Fault 1 Code,73,,0,0,127
+0,8,Fault 2 Code,59,,0,0,127
+0,9,Fault 3 Code,48,,0,0,127
+0,10,Process Display,0,,0,0,9999
+0,11,Process Fract,0.00,,0.00,0.00,0.99
+0,12,Control Source,155,,0,0,2165
+0,13,Contrl In Status,00000000 00000001,,00000000 00000000,,
+0,14,Dig In Status,00000000 00000000,,00000000 00000000,,
+0,15,Output RPM,0,RPM,0,0,24000
+0,16,Output Speed,0.0,%,0.0,0.0,100.0
+0,17,Output Power,0.00,kW,0.00,0.00,99.99
+0,18,Power Saved,0.00,kW,0.00,0.00,655.35
+0,19,Elapsed Run Time,1,x10h,0,0,65535
+0,20,Average Power,0.34,kW,0.00,0.00,655.35
+0,21,Elapsed kWh,5.7,kWh,0.0,0.0,100.0
+0,22,Elapsed MWh,0.0,MWh,0.0,0.0,6553.5
+0,23,Energy Saved,88.9,kWh,0.0,0.0,6553.5
+0,24,Accum kWh Sav,8.8,kWh,0.0,0.0,6553.5
+0,25,Accum Cost Sav,0.0,,0.0,0.0,6553.5
+0,26,Accum CO2 Sav,44.3,kg,0.0,0.0,6553.5
+0,27,Drive Temp,28,C,0,0,120
+0,28,Control Temp,55,C,0,0,120
+0,29,Control SW Ver,7.001,,0.000,0.000,65.535
+0,30,Language,English,,English,1,15
+0,31,Motor NP Volts,460,V,460,20,460
+0,32,Motor NP Hertz,60,Hz,60,15,500
+0,33,Motor OL Current,13.0,A,13.0,0.0,26.0
+0,34,Motor NP FLA,10.1,A,10.1,0.1,26.0
+0,35,Motor NP Poles,4,,4,2,40
+0,36,Motor NP RPM,1750,RPM,1750,0,24000
+0,37,Motor NP Power,5.50,kW,5.50,0.00,655.35
+0,38,Reserved,0,,0,0,0
+0,39,Torque Perf Mode,SVC,,SVC,0,5
+0,40,Autotune,Ready/Idle,,Ready/Idle,0,2
+0,41,Accel Time 1,10.00,Sec,10.00,0.00,600.00
+0,42,Decel Time 1,10.00,Sec,10.00,0.00,600.00
+0,43,Minimum Freq,0.00,Hz,0.00,0.00,500.00
+0,44,Maximum Freq,60.00,Hz,60.00,0.00,500.00
+0,45,Stop Mode,"Ramp, CF",,"Ramp, CF",0,11
+0,46,Start Source 1,Keypad,,Keypad,1,5
+0,47,Speed Reference1,Drive Pot,,Drive Pot,1,16
+0,48,Start Source 2,DigIn TrmBlk,,DigIn TrmBlk,1,5
+0,49,Speed Reference2,0-10V input,,0-10V input,1,16
+0,50,Start Source 3,EtherNet/IP,,EtherNet/IP,1,5
+0,51,Speed Reference3,EtherNet/IP,,EtherNet/IP,1,16
+0,52,Average kWh Cost,0.00,,0.00,0.00,655.35
+0,53,Reset To Defalts,Ready/Idle,,Ready/Idle,0,4
+0,54,Display Param,Keypad Disp,,Keypad Disp,0,54
+0,55,Reserved,0,,0,0,0
+0,56,Reserved,0,,0,0,0
+0,57,Reserved,0,,0,0,0
+0,58,Reserved,0,,0,0,0
+0,59,Reserved,0,,0,0,0
+0,60,Reserved,0,,0,0,0
+0,61,Reserved,0,,0,0,0
+0,62,DigIn TermBlk 02,2-Wire FWD,,2-Wire FWD,0,49
+0,63,DigIn TermBlk 03,2-Wire REV,,2-Wire REV,0,51
+0,64,2-Wire Mode,Edge Trigger,,Edge Trigger,0,3
+0,65,DigIn TermBlk 05,Preset Freq,,Preset Freq,0,43
+0,66,DigIn TermBlk 06,Preset Freq,,Preset Freq,0,43
+0,67,DigIn TermBlk 07,Spd + Strt 2,,Spd + Strt 2,0,52
+0,68,DigIn TermBlk 08,Jog Forward,,Jog Forward,0,43
+0,69,Opto Out1 Sel,MotorRunning,,MotorRunning,0,31
+0,70,Opto Out1 Level,0,,0,0,9999
+0,71,Opto Out1 LevelF,0.0,,0.0,0.0,0.9
+0,72,Opto Out2 Sel,At Frequency,,At Frequency,0,31
+0,73,Opto Out2 Level,0,,0,0,9999
+0,74,Opto Out2 LevelF,0.0,,0.0,0.0,0.9
+0,75,Opto Out Logic,1=NO / 2=NO,,1=NO / 2=NO,0,3
+0,76,Relay Out1 Sel,Ready/Fault,,Ready/Fault,0,31
+0,77,Relay Out1 Level,0,,0,0,9999
+0,78,RelayOut1 LevelF,0.0,,0.0,0.0,0.9
+0,79,Relay 1 On Time,0.0,,0.0,0.0,600.0
+0,80,Relay 1 Off Time,0.0,,0.0,0.0,600.0
+0,81,Relay Out2 Sel,MotorRunning,,MotorRunning,0,31
+0,82,Relay Out2 Level,0,,0,0,9999
+0,83,RelayOut2 LevelF,0.0,,0.0,0.0,0.9
+0,84,Relay 2 On Time,0.0,,0.0,0.0,600.0
+0,85,Relay 2 Off Time,0.0,,0.0,0.0,600.0
+0,86,EM Brk Off Delay,2.00,Sec,2.00,0.00,10.00
+0,87,EM Brk On Delay,2.00,Sec,2.00,0.00,10.00
+0,88,Analog Out Sel,OutFreq 0-10,,OutFreq 0-10,0,23
+0,89,Analog Out High,100,%,100,0,800
+0,90,Anlg Out Setpt,0.0,%,0.0,0.0,100.0
+0,91,Anlg In 0-10V Lo,0.0,%,0.0,0.0,200.0
+0,92,Anlg In 0-10V Hi,100.0,%,100.0,0.0,200.0
+0,93,10V Bipolar Enbl,Uni-Polar In,,Uni-Polar In,0,1
+0,94,Anlg In V Loss,Disabled,,Disabled,0,8
+0,95,Anlg In4-20mA Lo,0.0,%,0.0,0.0,200.0
+0,96,Anlg In4-20mA Hi,100.0,%,100.0,0.0,200.0
+0,97,Anlg In mA Loss,Disabled,,Disabled,0,8
+0,98,Anlg Loss Delay,0.0,Sec,0.0,0.0,20.0
+0,99,Analog In Filter,0,,0,0,14
+0,100,Sleep-Wake Sel,Disabled,,Disabled,0,3
+0,101,Sleep Level,10.0,%,10.0,0.0,100.0
+0,102,Sleep Time,0.0,Sec,0.0,0.0,600.0
+0,103,Wake Level,15.0,%,15.0,0.0,100.0
+0,104,Wake Time,0.0,Sec,0.0,0.0,600.0
+0,105,Safety Open En,FaultEnable,,FaultEnable,0,1
+0,106,SafetyFlt RstCfg,PwrCycleRset,,PwrCycleRset,0,1
+0,107,Reserved,0,,0,0,0
+0,108,Reserved,0,,0,0,0
+0,109,Reserved,0,,0,0,0
+0,110,Reserved,0,,0,0,0
+0,111,Reserved,0,,0,0,0
+0,112,Reserved,0,,0,0,0
+0,113,Reserved,0,,0,0,0
+0,114,Reserved,0,,0,0,0
+0,115,Reserved,0,,0,0,0
+0,116,Reserved,0,,0,0,0
+0,117,Reserved,0,,0,0,0
+0,118,Reserved,0,,0,0,0
+0,119,Reserved,0,,0,0,0
+0,120,Reserved,0,,0,0,0
+0,121,Comm Write Mode,Save,,Save,0,1
+0,122,Cmd Stat Select,Velocity,,Velocity,0,1
+0,123,RS485 Data Rate,9600,,9600,0,5
+0,124,RS485 Node Addr,100,,100,1,247
+0,125,Comm Loss Action,Fault,,Fault,0,3
+0,126,Comm Loss Time,5.0,Sec,5.0,0.1,60.0
+0,127,RS485 Format,RTU 8-N-1,,RTU 8-N-1,0,5
+0,128,EN Addr Sel,Parameters,,BOOTP,1,2
+0,129,EN IP Addr Cfg 1,192,,0,0,255
+0,130,EN IP Addr Cfg 2,168,,0,0,255
+0,131,EN IP Addr Cfg 3,4,,0,0,255
+0,132,EN IP Addr Cfg 4,210,,0,0,255
+0,133,EN Subnet Cfg 1,0,,0,0,255
+0,134,EN Subnet Cfg 2,0,,0,0,255
+0,135,EN Subnet Cfg 3,0,,0,0,255
+0,136,EN Subnet Cfg 4,0,,0,0,255
+0,137,EN Gateway Cfg 1,0,,0,0,255
+0,138,EN Gateway Cfg 2,0,,0,0,255
+0,139,EN Gateway Cfg 3,0,,0,0,255
+0,140,EN Gateway Cfg 4,0,,0,0,255
+0,141,EN Rate Cfg,Auto detect,,Auto detect,0,4
+0,142,Reserved,0,,0,0,0
+0,143,EN Comm Flt Actn,Fault,,Fault,0,4
+0,144,EN Idle Flt Actn,Fault,,Fault,0,4
+0,145,EN Flt Cfg Logic,00000000 00000000,,00000000 00000000,,
+0,146,EN Flt Cfg Ref,0,,0,0,50000
+0,147,EN Flt Cfg DL 1,0,,0,0,65535
+0,148,EN Flt Cfg DL 2,0,,0,0,65535
+0,149,EN Flt Cfg DL 3,0,,0,0,65535
+0,150,EN Flt Cfg DL 4,0,,0,0,65535
+0,151,Reserved,0,,0,0,0
+0,152,Reserved,0,,0,0,0
+0,153,EN Data In 1,0,,0,0,800
+0,154,EN Data In 2,0,,0,0,800
+0,155,EN Data In 3,0,,0,0,800
+0,156,EN Data In 4,0,,0,0,800
+0,157,EN Data Out 1,0,,0,0,800
+0,158,EN Data Out 2,0,,0,0,800
+0,159,EN Data Out 3,0,,0,0,800
+0,160,EN Data Out 4,0,,0,0,800
+0,161,Opt Data In 1,0,,0,0,800
+0,162,Opt Data In 2,0,,0,0,800
+0,163,Opt Data In 3,0,,0,0,800
+0,164,Opt Data In 4,0,,0,0,800
+0,165,Opt Data Out 1,0,,0,0,800
+0,166,Opt Data Out 2,0,,0,0,800
+0,167,Opt Data Out 3,0,,0,0,800
+0,168,Opt Data Out 4,0,,0,0,800
+0,169,MultiDrv Sel,Disabled,,Disabled,0,2
+0,170,Reserved,0,,0,0,0
+0,171,Drv 1 Addr,2,,2,1,247
+0,172,Drv 2 Addr,3,,3,1,247
+0,173,Drv 3 Addr,4,,4,1,247
+0,174,Drv 4 Addr,5,,5,1,247
+0,175,DSI I/O Cfg,Drive 0,,Drive 0,0,4
+0,176,Reserved,0,,0,0,0
+0,177,Reserved,0,,0,0,0
+0,178,Reserved,0,,0,0,0
+0,179,Reserved,0,,0,0,0
+0,180,Stp Logic 0,00000000 11110001,,00000000 11110001,,
+0,181,Stp Logic 1,00000000 11110001,,00000000 11110001,,
+0,182,Stp Logic 2,00000000 11110001,,00000000 11110001,,
+0,183,Stp Logic 3,00000000 11110001,,00000000 11110001,,
+0,184,Stp Logic 4,00000000 11110001,,00000000 11110001,,
+0,185,Stp Logic 5,00000000 11110001,,00000000 11110001,,
+0,186,Stp Logic 6,00000000 11110001,,00000000 11110001,,
+0,187,Stp Logic 7,00000000 11110001,,00000000 11110001,,
+0,188,Reserved,0,,0,0,0
+0,189,Reserved,0,,0,0,0
+0,190,Stp Logic Time 0,30.0,Sec,30.0,0.0,999.9
+0,191,Stp Logic Time 1,30.0,Sec,30.0,0.0,999.9
+0,192,Stp Logic Time 2,30.0,Sec,30.0,0.0,999.9
+0,193,Stp Logic Time 3,30.0,Sec,30.0,0.0,999.9
+0,194,Stp Logic Time 4,30.0,Sec,30.0,0.0,999.9
+0,195,Stp Logic Time 5,30.0,Sec,30.0,0.0,999.9
+0,196,Stp Logic Time 6,30.0,Sec,30.0,0.0,999.9
+0,197,Stp Logic Time 7,30.0,Sec,30.0,0.0,999.9
+0,198,Reserved,0,,0,0,0
+0,199,Reserved,0,,0,0,0
+0,200,Step Units 0,0,,0,0,6400
+0,201,Step Units F 0,0.00,,0.00,0.00,0.99
+0,202,Step Units 1,0,,0,0,6400
+0,203,Step Units F 1,0.00,,0.00,0.00,0.99
+0,204,Step Units 2,0,,0,0,6400
+0,205,Step Units F 2,0.00,,0.00,0.00,0.99
+0,206,Step Units 3,0,,0,0,6400
+0,207,Step Units F 3,0.00,,0.00,0.00,0.99
+0,208,Step Units 4,0,,0,0,6400
+0,209,Step Units F 4,0.00,,0.00,0.00,0.99
+0,210,Step Units 5,0,,0,0,6400
+0,211,Step Units F 5,0.00,,0.00,0.00,0.99
+0,212,Step Units 6,0,,0,0,6400
+0,213,Step Units F 6,0.00,,0.00,0.00,0.99
+0,214,Step Units 7,0,,0,0,6400
+0,215,Step Units F 7,0.00,,0.00,0.00,0.99
+0,216,Reserved,0,,0,0,0
+0,217,Reserved,0,,0,0,0
+0,218,Reserved,0,,0,0,0
+0,219,Reserved,0,,0,0,0
+0,220,Reserved,0,,0,0,0
+0,221,Reserved,0,,0,0,0
+0,222,Reserved,0,,0,0,0
+0,223,Reserved,0,,0,0,0
+0,224,Reserved,0,,0,0,0
+0,225,Reserved,0,,0,0,0
+0,226,Reserved,0,,0,0,0
+0,227,Reserved,0,,0,0,0
+0,228,Reserved,0,,0,0,0
+0,229,Reserved,0,,0,0,0
+0,230,Reserved,0,,0,0,0
+0,231,Reserved,0,,0,0,0
+0,232,Reserved,0,,0,0,0
+0,233,Reserved,0,,0,0,0
+0,234,Reserved,0,,0,0,0
+0,235,Reserved,0,,0,0,0
+0,236,Reserved,0,,0,0,0
+0,237,Reserved,0,,0,0,0
+0,238,Reserved,0,,0,0,0
+0,239,Reserved,0,,0,0,0
+0,240,Reserved,0,,0,0,0
+0,241,Reserved,0,,0,0,0
+0,242,Reserved,0,,0,0,0
+0,243,Reserved,0,,0,0,0
+0,244,Reserved,0,,0,0,0
+0,245,Reserved,0,,0,0,0
+0,246,Reserved,0,,0,0,0
+0,247,Reserved,0,,0,0,0
+0,248,Reserved,0,,0,0,0
+0,249,Reserved,0,,0,0,0
+0,250,Reserved,0,,0,0,0
+0,251,Reserved,0,,0,0,0
+0,252,Reserved,0,,0,0,0
+0,253,Reserved,0,,0,0,0
+0,254,Reserved,0,,0,0,0
+0,255,Reserved,0,,0,0,0
+0,256,Reserved,0,,0,0,0
+0,257,Reserved,0,,0,0,0
+0,258,Reserved,0,,0,0,0
+0,259,Reserved,0,,0,0,0
+0,260,Reserved,0,,0,0,0
+0,261,Reserved,0,,0,0,0
+0,262,Reserved,0,,0,0,0
+0,263,Reserved,0,,0,0,0
+0,264,Reserved,0,,0,0,0
+0,265,Reserved,0,,0,0,0
+0,266,Reserved,0,,0,0,0
+0,267,Reserved,0,,0,0,0
+0,268,Reserved,0,,0,0,0
+0,269,Reserved,0,,0,0,0
+0,270,Reserved,0,,0,0,0
+0,271,Reserved,0,,0,0,0
+0,272,Reserved,0,,0,0,0
+0,273,Reserved,0,,0,0,0
+0,274,Reserved,0,,0,0,0
+0,275,Reserved,0,,0,0,0
+0,276,Reserved,0,,0,0,0
+0,277,Reserved,0,,0,0,0
+0,278,Reserved,0,,0,0,0
+0,279,Reserved,0,,0,0,0
+0,280,Reserved,0,,0,0,0
+0,281,Reserved,0,,0,0,0
+0,282,Reserved,0,,0,0,0
+0,283,Reserved,0,,0,0,0
+0,284,Reserved,0,,0,0,0
+0,285,Reserved,0,,0,0,0
+0,286,Reserved,0,,0,0,0
+0,287,Reserved,0,,0,0,0
+0,288,Reserved,0,,0,0,0
+0,289,Reserved,0,,0,0,0
+0,290,Reserved,0,,0,0,0
+0,291,Reserved,0,,0,0,0
+0,292,Reserved,0,,0,0,0
+0,293,Reserved,0,,0,0,0
+0,294,Reserved,0,,0,0,0
+0,295,Reserved,0,,0,0,0
+0,296,Reserved,0,,0,0,0
+0,297,Reserved,0,,0,0,0
+0,298,Reserved,0,,0,0,0
+0,299,Reserved,0,,0,0,0
+0,300,Reserved,0,,0,0,0
+0,301,Reserved,0,,0,0,0
+0,302,Reserved,0,,0,0,0
+0,303,Reserved,0,,0,0,0
+0,304,Reserved,0,,0,0,0
+0,305,Reserved,0,,0,0,0
+0,306,Reserved,0,,0,0,0
+0,307,Reserved,0,,0,0,0
+0,308,Reserved,0,,0,0,0
+0,309,Reserved,0,,0,0,0
+0,310,Reserved,0,,0,0,0
+0,311,Reserved,0,,0,0,0
+0,312,Reserved,0,,0,0,0
+0,313,Reserved,0,,0,0,0
+0,314,Reserved,0,,0,0,0
+0,315,Reserved,0,,0,0,0
+0,316,Reserved,0,,0,0,0
+0,317,Reserved,0,,0,0,0
+0,318,Reserved,0,,0,0,0
+0,319,Reserved,0,,0,0,0
+0,320,Reserved,0,,0,0,0
+0,321,Reserved,0,,0,0,0
+0,322,Reserved,0,,0,0,0
+0,323,Reserved,0,,0,0,0
+0,324,Reserved,0,,0,0,0
+0,325,Reserved,0,,0,0,0
+0,326,Reserved,0,,0,0,0
+0,327,Reserved,0,,0,0,0
+0,328,Reserved,0,,0,0,0
+0,329,Reserved,0,,0,0,0
+0,330,Reserved,0,,0,0,0
+0,331,Reserved,0,,0,0,0
+0,332,Reserved,0,,0,0,0
+0,333,Reserved,0,,0,0,0
+0,334,Reserved,0,,0,0,0
+0,335,Reserved,0,,0,0,0
+0,336,Reserved,0,,0,0,0
+0,337,Reserved,0,,0,0,0
+0,338,Reserved,0,,0,0,0
+0,339,Reserved,0,,0,0,0
+0,340,Reserved,0,,0,0,0
+0,341,Reserved,0,,0,0,0
+0,342,Reserved,0,,0,0,0
+0,343,Reserved,0,,0,0,0
+0,344,Reserved,0,,0,0,0
+0,345,Reserved,0,,0,0,0
+0,346,Reserved,0,,0,0,0
+0,347,Reserved,0,,0,0,0
+0,348,Reserved,0,,0,0,0
+0,349,Reserved,0,,0,0,0
+0,350,Reserved,0,,0,0,0
+0,351,Reserved,0,,0,0,0
+0,352,Reserved,0,,0,0,0
+0,353,Reserved,0,,0,0,0
+0,354,Reserved,0,,0,0,0
+0,355,Reserved,0,,0,0,0
+0,356,Reserved,0,,0,0,0
+0,357,Reserved,0,,0,0,0
+0,358,Reserved,0,,0,0,0
+0,359,Reserved,0,,0,0,0
+0,360,Analog In 0-10V,0.0,%,0.0,0.0,100.0
+0,361,Analog In 4-20mA,0.0,%,0.0,0.0,100.0
+0,362,Elapsed Time-hr,0,hr,0,0,32767
+0,363,Elapsed Time-min,0.0,min,0.0,0.0,60.0
+0,364,Counter Status,0,,0,0,65535
+0,365,Timer Status,0,Sec,0,0,9999
+0,366,Timer StatusF,0.0,,0.0,0.0,0.9
+0,367,Drive Type,0,,0,0,65535
+0,368,Testpoint Data,00000000 00000000,,00000000 00000000,,
+0,369,Motor OL Level,0.0,%,0.0,0.0,150.0
+0,370,Reserved,0,,0,0,0
+0,371,Reserved,0,,0,0,0
+0,372,Reserved,0,,0,0,0
+0,373,Reserved,0,,0,0,0
+0,374,Reserved,0,,0,0,0
+0,375,Slip Hz Meter,0.0,Hz,0.0,0.0,25.0
+0,376,Speed Feedback,0,RPM,0,0,64000
+0,377,Speed Feedback F,0.0,RPM,0.0,0.0,0.9
+0,378,Encoder Speed,0,RPM,0,0,64000
+0,379,Encoder Speed F,0.0,RPM,0.0,0.0,0.9
+0,380,DC Bus Ripple,0,VDC,0,0,820
+0,381,Output Powr Fctr,0.0,deg,0.0,0.0,180.0
+0,382,Torque Current,0.00,A,0.00,0.00,26.00
+0,383,PID1 Fdbk Displ,0.0,%,0.0,0.0,100.0
+0,384,PID1 Setpnt Disp,0.0,%,0.0,0.0,100.0
+0,385,PID2 Fdbk Displ,0.0,%,0.0,0.0,100.0
+0,386,PID2 Setpnt Disp,0.0,%,0.0,0.0,100.0
+0,387,Position Status,00000000 00000000,,00000000 00000000,,
+0,388,Units Traveled H,0,,0,0,64000
+0,389,Units Traveled L,0.00,,0.00,0.00,0.99
+0,390,Fiber Status,00000000 00000000,,00000000 00000000,,
+0,391,Stp Logic Status,0,,0,0,8
+0,392,RdyBit Mode Act,Standard,,Standard,0,1
+0,393,Drive Status 2,00000000 00000000,,00000000 00000000,,
+0,394,Dig Out Status,00000000 00000000,,00000000 00000000,,
+0,395,Reserved,0,,0,0,0
+0,396,Reserved,0,,0,0,0
+0,397,Reserved,0,,0,0,0
+0,398,Reserved,0,,0,0,0
+0,399,Reserved,0,,0,0,0
+0,400,Reserved,0,,0,0,0
+0,401,Reserved,0,,0,0,0
+0,402,Reserved,0,,0,0,0
+0,403,Reserved,0,,0,0,0
+0,404,Reserved,0,,0,0,0
+0,405,Reserved,0,,0,0,0
+0,406,Reserved,0,,0,0,0
+0,407,Reserved,0,,0,0,0
+0,408,Reserved,0,,0,0,0
+0,409,Reserved,0,,0,0,0
+0,410,Preset Freq 0,0.00,Hz,0.00,0.00,500.00
+0,411,Preset Freq 1,5.00,Hz,5.00,0.00,500.00
+0,412,Preset Freq 2,10.00,Hz,10.00,0.00,500.00
+0,413,Preset Freq 3,20.00,Hz,20.00,0.00,500.00
+0,414,Preset Freq 4,30.00,Hz,30.00,0.00,500.00
+0,415,Preset Freq 5,40.00,Hz,40.00,0.00,500.00
+0,416,Preset Freq 6,50.00,Hz,50.00,0.00,500.00
+0,417,Preset Freq 7,60.00,Hz,60.00,0.00,500.00
+0,418,Preset Freq 8,60.00,Hz,60.00,0.00,500.00
+0,419,Preset Freq 9,60.00,Hz,60.00,0.00,500.00
+0,420,Preset Freq 10,60.00,Hz,60.00,0.00,500.00
+0,421,Preset Freq 11,60.00,Hz,60.00,0.00,500.00
+0,422,Preset Freq 12,60.00,Hz,60.00,0.00,500.00
+0,423,Preset Freq 13,60.00,Hz,60.00,0.00,500.00
+0,424,Preset Freq 14,60.00,Hz,60.00,0.00,500.00
+0,425,Preset Freq 15,60.00,Hz,60.00,0.00,500.00
+0,426,Keypad Freq,60.00,Hz,60.00,0.00,500.00
+0,427,MOP Freq,60.00,Hz,60.00,0.00,500.00
+0,428,MOP Reset Sel,Save MOP Ref,,Save MOP Ref,0,1
+0,429,MOP Preload,No preload,,No preload,0,1
+0,430,MOP Time,10.0,Sec,10.0,0.1,600.0
+0,431,Jog Frequency,10.00,Hz,10.00,0.00,500.00
+0,432,Jog Accel/Decel,10.00,Sec,10.00,0.01,600.00
+0,433,Purge Frequency,5.00,Hz,5.00,0.00,500.00
+0,434,DC Brake Time,0.0,Sec,0.0,0.0,99.9
+0,435,DC Brake Level,0.7,A,0.7,0.0,23.4
+0,436,DC Brk Time@Strt,0.0,Sec,0.0,0.0,99.9
+0,437,DB Resistor Sel,Disabled,%,Disabled,0,99
+0,438,DB Threshold,100.0,%,100.0,10.0,110.0
+0,439,S Curve %,0,%,0,0,100
+0,440,PWM Frequency,4.0,kHz,4.0,2.0,16.0
+0,441,Droop Hertz@ FLA,0.0,Hz,0.0,0.0,10.0
+0,442,Accel Time 2,10.00,Sec,10.00,0.00,600.00
+0,443,Decel Time 2,10.00,Sec,10.00,0.00,600.00
+0,444,Accel Time 3,10.00,Sec,10.00,0.00,600.00
+0,445,Decel Time 3,10.00,Sec,10.00,0.00,600.00
+0,446,Accel Time 4,10.00,Sec,10.00,0.00,600.00
+0,447,Decel Time 4,10.00,Sec,10.00,0.00,600.00
+0,448,Skip Frequency 1,0.0,Hz,0.0,0.0,500.0
+0,449,Skip Freq Band 1,0.0,Hz,0.0,0.0,30.0
+0,450,Skip Frequency 2,0.0,Hz,0.0,0.0,500.0
+0,451,Skip Freq Band 2,0.0,Hz,0.0,0.0,30.0
+0,452,Skip Frequency 3,0.0,Hz,0.0,0.0,500.0
+0,453,Skip Freq Band 3,0.0,Hz,0.0,0.0,30.0
+0,454,Skip Frequency 4,0.0,Hz,0.0,0.0,500.0
+0,455,Skip Freq Band 4,0.0,Hz,0.0,0.0,30.0
+0,456,PID 1 Trim Hi,60.0,Hz,60.0,0.0,500.0
+0,457,PID 1 Trim Lo,0.0,Hz,0.0,0.0,500.0
+0,458,PID 1 Trim Sel,Disabled,,Disabled,0,13
+0,459,PID 1 Ref Sel,PID Setpoint,,PID Setpoint,0,13
+0,460,PID 1 Fdback Sel,0-10V Input,,0-10V Input,0,6
+0,461,PID 1 Prop Gain,0.01,,0.01,0.00,99.99
+0,462,PID 1 Integ Time,2.0,Sec,2.0,0.0,999.9
+0,463,PID 1 Diff Rate,0.00,1/s,0.00,0.00,99.99
+0,464,PID 1 Setpoint,0.0,%,0.0,0.0,100.0
+0,465,PID 1 Deadband,0.0,%,0.0,0.0,10.0
+0,466,PID 1 Preload,0.0,Hz,0.0,0.0,500.0
+0,467,PID 1 Invert Err,Normal,,Normal,0,1
+0,468,PID 2 Trim Hi,60.0,Hz,60.0,0.0,500.0
+0,469,PID 2 Trim Lo,0.0,Hz,0.0,0.0,500.0
+0,470,PID 2 Trim Sel,Disabled,,Disabled,0,13
+0,471,PID 2 Ref Sel,PID Setpoint,,PID Setpoint,0,13
+0,472,PID 2 Fdback Sel,0-10V Input,,0-10V Input,0,6
+0,473,PID 2 Prop Gain,0.01,,0.01,0.00,99.99
+0,474,PID 2 Integ Time,2.0,Sec,2.0,0.0,999.9
+0,475,PID 2 Diff Rate,0.00,1/s,0.00,0.00,99.99
+0,476,PID 2 Setpoint,0.0,%,0.0,0.0,100.0
+0,477,PID 2 Deadband,0.0,%,0.0,0.0,10.0
+0,478,PID 2 Preload,0.0,Hz,0.0,0.0,500.0
+0,479,PID 2 Invert Err,Normal,,Normal,0,1
+0,480,Reserved,0,,0,0,0
+0,481,Process Disp Lo,0.00,,0.00,0.00,99.99
+0,482,Process Disp Hi,0.00,,0.00,0.00,99.99
+0,483,Testpoint Sel,00000100 00000000,,00000100 00000000,,
+0,484,Current Limit 1,19.5,A,19.5,0.0,23.4
+0,485,Current Limit 2,14.3,A,14.3,0.0,23.4
+0,486,Shear Pin1 Level,0.0,A,0.0,0.0,26.0
+0,487,Shear Pin 1 Time,0.00,Sec,0.00,0.00,30.00
+0,488,Shear Pin2 Level,0.0,A,0.0,0.0,26.0
+0,489,Shear Pin 2 Time,0.00,Sec,0.00,0.00,30.00
+0,490,Load Loss Level,0.0,A,0.0,0.0,13.0
+0,491,Load Loss Time,0,Sec,0,0,9999
+0,492,Stall Fault Time,60 Seconds,,60 Seconds,0,5
+0,493,Motor OL Select,No Derate,,No Derate,0,2
+0,494,Motor OL Ret,Reset,,Reset,0,1
+0,495,Drive OL Mode,Both-PWM 1st,,Both-PWM 1st,0,3
+0,496,IR Voltage Drop,4.3,Vac,4.3,0.0,115.0
+0,497,Flux Current Ref,4.03,A,4.03,0.00,18.20
+0,498,Motor Rr,0.00,Ohm,0.00,0.00,655.35
+0,499,Motor Lm,0.0,mH,0.0,0.0,6553.5
+0,500,Motor Lx,0.0,mH,0.0,0.0,6553.5
+0,501,PM IR Voltage,11.50,V,11.50,0.00,655.35
+0,502,PM IXd Voltage,17.91,V,17.91,0.00,655.35
+0,503,PM IXq Voltage,53.21,V,53.21,0.00,655.35
+0,504,PM BEMF Voltage,328.0,V,328.0,0.0,1200.0
+0,505,Reserved,0,,0,0,0
+0,506,Reserved,0,,0,0,0
+0,507,Reserved,0,,0,0,0
+0,508,Reserved,0,,0,0,0
+0,509,Speed Reg Sel,Automatic,,Automatic,0,1
+0,510,Freq 1,8.33,%,8.33,0.00,200.00
+0,511,Freq 1 BW,10,Hz,10,0,40
+0,512,Freq 2,15.00,%,15.00,0.00,200.00
+0,513,Freq 2 BW,10,Hz,10,0,40
+0,514,Freq 3,20.00,%,20.00,0.00,200.00
+0,515,Freq 3 BW,10,Hz,10,0,40
+0,516,PM Initial Sel,Align,,Align,0,2
+0,517,PM DC Inject Cur,30,%,30,0,300
+0,518,PM Align Time,0.7,Sec,0.7,0.0,60.0
+0,519,PM HFI NS Cur,100,%,100,0,300
+0,520,PM Bus Reg Kd,2,,2,0,500
+0,521,Freq 1 Kp,100.0,%,100.0,0.0,500.0
+0,522,Freq 1 Ki,0.100,Sec,0.100,0.000,10.000
+0,523,Freq 2 Kp,100.0,%,100.0,0.0,500.0
+0,524,Freq 2 Ki,0.100,Sec,0.100,0.000,10.000
+0,525,Freq 3 Kp,100.0,%,100.0,0.0,500.0
+0,526,Freq 3 Ki,0.100,Sec,0.100,0.000,10.000
+0,527,PM FWKn 1 Kp,350,%,350,0,2000
+0,528,PM FWKn 2 Kp,300,%,300,100,8000
+0,529,PM Control Cfg,00000000 00000111,,00000000 00000111,,
+0,530,Boost Select,"2.5, CT",,"2.5, CT",0,14
+0,531,Start Boost,2.5,%,2.5,0.0,25.0
+0,532,Break Voltage,25.0,%,25.0,0.0,100.0
+0,533,Break Frequency,15.0,Hz,15.0,0.0,500.0
+0,534,Maximum Voltage,460,V,460,20,510
+0,535,Motor Fdbk Type,None,,None,0,5
+0,536,Encoder PPR,1024,PPR,1024,1,20000
+0,537,Pulse In Scale,64,,64,0,20000
+0,538,Ki Speed Loop,2.0,,2.0,0.0,400.0
+0,539,Kp Speed Loop,0.5,,0.5,0.0,200.0
+0,540,Var PWM Disable,Enabled,,Enabled,0,1
+0,541,Auto Rstrt Tries,0,,0,0,9
+0,542,Auto Rstrt Delay,1.0,Sec,1.0,0.0,120.0
+0,543,Start At PowerUp,Disabled,,Disabled,0,1
+0,544,Reverse Disable,Rev Enabled,,Rev Enabled,0,1
+0,545,Flying Start En,Disabled,,Disabled,0,1
+0,546,FlyStrt CurLimit,65,%,65,30,200
+0,547,Compensation,Electrical,,Electrical,0,3
+0,548,Power Loss Mode,Coast,,Coast,0,1
+0,549,Half Bus Enable,Disabled,,Disabled,0,1
+0,550,Bus Reg Enable,Enabled,,Enabled,0,1
+0,551,Fault Clear,Ready/Idle,,Ready/Idle,0,2
+0,552,Program Lock,0,,0,0,9999
+0,553,Program Lock Mod,Full Lock,,Full Lock,0,3
+0,554,Drv Ambient Sel,Normal,,Normal,0,4
+0,555,Reset Meters,Ready/Idle,,Ready/Idle,0,2
+0,556,Text Scroll,Mid Speed,,Mid Speed,0,3
+0,557,Out Phas Loss En,Disable,,Disable,0,1
+0,558,Positioning Mode,Time Steps,,Time Steps,0,4
+0,559,Counts Per Unit,4096,,4096,1,32000
+0,560,Enh Control Word,00000000 00000000,,00000000 00000000,,
+0,561,Home Save,Home Reset,,Home Reset,0,1
+0,562,Find Home Freq,10.0,Hz,10.0,0.1,500.0
+0,563,Find Home Dir,Forward,,Forward,0,1
+0,564,Encoder Pos Tol,100,,100,1,50000
+0,565,Pos Reg Filter,8,,8,0,15
+0,566,Pos Reg Gain,3.0,,3.0,0.0,200.0
+0,567,Max Traverse,0.00,Hz,0.00,0.00,300.00
+0,568,Traverse Inc,0.00,Sec,0.00,0.00,300.00
+0,569,Traverse Dec,0.00,Sec,0.00,0.00,300.00
+0,570,P Jump,0.00,Hz,0.00,0.00,300.00
+0,571,Sync Time,0.0,Sec,0.0,0.0,3200.0
+0,572,Speed Ratio,1.00,,1.00,0.01,99.99
+0,573,Mtr Options Cfg,00000000 00000011,,00000000 00000011,,
+0,574,RdyBit Mode Cfg,Standard,,Standard,0,1
+0,575,Flux Braking En,Disabled,,Disabled,0,1
+0,576,Phase Loss Level,25.0,%,25.0,0.0,100.0
+0,577,Reserved,0,,0,0,0
+0,578,Reserved,0,,0,0,0
+0,579,Reserved,0,,0,0,0
+0,580,Current Loop BW,0,Hz,0,0,65535
+0,581,PM Stable 1 Freq,0,%,0,0,100
+0,582,PM Stable 2 Freq,45,%,45,0,100
+0,583,PM Stable 1 Kp,40,%,40,0,100
+0,584,PM Stable 2 Kp,250,%,250,0,2000
+0,585,PM Stable Brk Pt,40,%,40,0,100
+0,586,PM Stepload Kp,0,%,0,0,1000
+0,587,PM 1 Efficiency,120,%,120,0,2000
+0,588,PM 2 Efficiency,500,%,500,0,2000
+0,589,PM Algor Sel,Algorithm 1,,Algorithm 1,0,1
+0,590,SynRM SW Freq,10.00,Hz,10.00,0.00,600.00
+0,591,SynRM Flux Cur,35,%,35,0,150
+0,592,SynRM Freq1 Volt,30,,30,0,100
+0,593,SynRM Freq1 Kp,1.00,,1.00,0.01,5.00
+0,594,SynRM Freq1 Comp,1.00,,1.00,0.00,10.00
+0,595,SynRM Freq2 BW,10,Hz,10,0,50
+0,596,SynRM Freq2 Kp,1.0,,1.0,0.1,10.0
+0,597,Reserved,0,,0,0,0
+0,598,Reserved,0,,0,0,0
+0,599,Reserved,0,,0,0,0
+0,600,Reserved,0,,0,0,0
+0,601,Reserved,0,,0,0,0
+0,602,Reserved,0,,0,0,0
+0,603,Reserved,0,,0,0,0
+0,604,Fault 4 Code,0,,0,0,127
+0,605,Fault 5 Code,0,,0,0,127
+0,606,Fault 6 Code,0,,0,0,127
+0,607,Fault 7 Code,0,,0,0,127
+0,608,Fault 8 Code,0,,0,0,127
+0,609,Fault 9 Code,0,,0,0,127
+0,610,Fault10 Code,0,,0,0,127
+0,611,Fault 1 Time-hr,0,hr,0,0,32767
+0,612,Fault 2 Time-hr,0,hr,0,0,32767
+0,613,Fault 3 Time-hr,0,hr,0,0,32767
+0,614,Fault 4 Time-hr,0,hr,0,0,32767
+0,615,Fault 5 Time-hr,0,hr,0,0,32767
+0,616,Fault 6 Time-hr,0,hr,0,0,32767
+0,617,Fault 7 Time-hr,0,hr,0,0,32767
+0,618,Fault 8 Time-hr,0,hr,0,0,32767
+0,619,Fault 9 Time-hr,0,hr,0,0,32767
+0,620,Fault10 Time-hr,0,hr,0,0,32767
+0,621,Fault 1 Time-min,0.0,min,0.0,0.0,320.0
+0,622,Fault 2 Time-min,0.0,min,0.0,0.0,320.0
+0,623,Fault 3 Time-min,0.0,min,0.0,0.0,320.0
+0,624,Fault 4 Time-min,0.0,min,0.0,0.0,320.0
+0,625,Fault 5 Time-min,0.0,min,0.0,0.0,320.0
+0,626,Fault 6 Time-min,0.0,min,0.0,0.0,320.0
+0,627,Fault 7 Time-min,0.0,min,0.0,0.0,320.0
+0,628,Fault 8 Time-min,0.0,min,0.0,0.0,320.0
+0,629,Fault 9 Time-min,0.0,min,0.0,0.0,320.0
+0,630,Fault10 Time-min,0.0,min,0.0,0.0,320.0
+0,631,Fault 1 Freq,0.00,Hz,0.00,0.00,500.00
+0,632,Fault 2 Freq,0.00,Hz,0.00,0.00,500.00
+0,633,Fault 3 Freq,0.00,Hz,0.00,0.00,500.00
+0,634,Fault 4 Freq,0.00,Hz,0.00,0.00,500.00
+0,635,Fault 5 Freq,0.00,Hz,0.00,0.00,500.00
+0,636,Fault 6 Freq,0.00,Hz,0.00,0.00,500.00
+0,637,Fault 7 Freq,0.00,Hz,0.00,0.00,500.00
+0,638,Fault 8 Freq,0.00,Hz,0.00,0.00,500.00
+0,639,Fault 9 Freq,0.00,Hz,0.00,0.00,500.00
+0,640,Fault10 Freq,0.00,Hz,0.00,0.00,500.00
+0,641,Fault 1 Current,0.00,A,0.00,0.00,85.19
+0,642,Fault 2 Current,0.00,A,0.00,0.00,85.19
+0,643,Fault 3 Current,0.00,A,0.00,0.00,85.19
+0,644,Fault 4 Current,0.00,A,0.00,0.00,85.19
+0,645,Fault 5 Current,0.00,A,0.00,0.00,85.19
+0,646,Fault 6 Current,0.00,A,0.00,0.00,85.19
+0,647,Fault 7 Current,0.00,A,0.00,0.00,85.19
+0,648,Fault 8 Current,0.00,A,0.00,0.00,85.19
+0,649,Fault 9 Current,0.00,A,0.00,0.00,85.19
+0,650,Fault10 Current,0.00,A,0.00,0.00,85.19
+0,651,Fault 1 BusVolts,0,VDC,0,0,13107
+0,652,Fault 2 BusVolts,0,VDC,0,0,13107
+0,653,Fault 3 BusVolts,0,VDC,0,0,13107
+0,654,Fault 4 BusVolts,0,VDC,0,0,13107
+0,655,Fault 5 BusVolts,0,VDC,0,0,13107
+0,656,Fault 6 BusVolts,0,VDC,0,0,13107
+0,657,Fault 7 BusVolts,0,VDC,0,0,13107
+0,658,Fault 8 BusVolts,0,VDC,0,0,13107
+0,659,Fault 9 BusVolts,0,VDC,0,0,13107
+0,660,Fault10 BusVolts,0,VDC,0,0,13107
+0,661,Status @ Fault 1,00000000 00000000,,00000000 00000000,,
+0,662,Status @ Fault 2,00000000 00000000,,00000000 00000000,,
+0,663,Status @ Fault 3,00000000 00000000,,00000000 00000000,,
+0,664,Status @ Fault 4,00000000 00000000,,00000000 00000000,,
+0,665,Status @ Fault 5,00000000 00000000,,00000000 00000000,,
+0,666,Status @ Fault 6,00000000 00000000,,00000000 00000000,,
+0,667,Status @ Fault 7,00000000 00000000,,00000000 00000000,,
+0,668,Status @ Fault 8,00000000 00000000,,00000000 00000000,,
+0,669,Status @ Fault 9,00000000 00000000,,00000000 00000000,,
+0,670,Status @ Fault10,00000000 00000000,,00000000 00000000,,
+0,671,Reserved,0,,0,0,0
+0,672,Reserved,0,,0,0,0
+0,673,Reserved,0,,0,0,0
+0,674,Reserved,0,,0,0,0
+0,675,Reserved,0,,0,0,0
+0,676,Reserved,0,,0,0,0
+0,677,Reserved,0,,0,0,0
+0,678,Reserved,0,,0,0,0
+0,679,Reserved,0,,0,0,0
+0,680,Reserved,0,,0,0,0
+0,681,Comm Sts - DSI,0,,0,0,1911
+0,682,Comm Sts - Opt,0,,0,0,1911
+0,683,Com Sts-Emb Enet,0,,0,0,1911
+0,684,EN Addr Src,Parameters,,BOOTP,1,2
+0,685,EN Rate Act,No Link,,No Link,0,6
+0,686,DSI I/O Act,00000000 00000000,,00000000 00000000,,
+0,687,HW Addr 1,0,,0,0,255
+0,688,HW Addr 2,0,,0,0,255
+0,689,HW Addr 3,0,,0,0,255
+0,690,HW Addr 4,0,,0,0,255
+0,691,HW Addr 5,0,,0,0,255
+0,692,HW Addr 6,0,,0,0,255
+0,693,EN IP Addr Act 1,192,,0,0,255
+0,694,EN IP Addr Act 2,168,,0,0,255
+0,695,EN IP Addr Act 3,4,,0,0,255
+0,696,EN IP Addr Act 4,210,,0,0,255
+0,697,EN Subnet Act 1,0,,0,0,255
+0,698,EN Subnet Act 2,0,,0,0,255
+0,699,EN Subnet Act 3,0,,0,0,255
+0,700,EN Subnet Act 4,0,,0,0,255
+0,701,EN Gateway Act 1,0,,0,0,255
+0,702,EN Gateway Act 2,0,,0,0,255
+0,703,EN Gateway Act 3,0,,0,0,255
+0,704,EN Gateway Act 4,0,,0,0,255
+0,705,Drv 0 Logic Cmd,00000000 00000000,,00000000 00000000,,
+0,706,Drv 0 Reference,0,Hz,0,0,50000
+0,707,Drv 0 Logic Sts,00000000 00000000,,00000000 00000000,,
+0,708,Drv 0 Feedback,0,Hz,0,0,50000
+0,709,Drv 1 Logic Cmd,00000000 00000000,,00000000 00000000,,
+0,710,Drv 1 Reference,0,Hz,0,0,50000
+0,711,Drv 1 Logic Sts,00000000 00000000,,00000000 00000000,,
+0,712,Drv 1 Feedback,0,Hz,0,0,50000
+0,713,Drv 2 Logic Cmd,00000000 00000000,,00000000 00000000,,
+0,714,Drv 2 Reference,0,Hz,0,0,50000
+0,715,Drv 2 Logic Sts,00000000 00000000,,00000000 00000000,,
+0,716,Drv 2 Feedback,0,Hz,0,0,50000
+0,717,Drv 3 Logic Cmd,00000000 00000000,,00000000 00000000,,
+0,718,Drv 3 Reference,0,Hz,0,0,50000
+0,719,Drv 3 Logic Sts,00000000 00000000,,00000000 00000000,,
+0,720,Drv 3 Feedback,0,Hz,0,0,50000
+0,721,Drv 4 Logic Cmd,00000000 00000000,,00000000 00000000,,
+0,722,Drv 4 Reference,0,Hz,0,0,50000
+0,723,Drv 4 Logic Sts,00000000 00000000,,00000000 00000000,,
+0,724,Drv 4 Feedback,0,Hz,0,0,50000
+0,725,EN Rx Overruns,0,,0,0,65535
+0,726,EN Rx Packets,0,,0,0,65535
+0,727,EN Rx Errors,0,,0,0,65535
+0,728,EN Tx Packets,0,,0,0,65535
+0,729,EN Tx Errors,0,,0,0,65535
+0,730,EN Missed IO Pkt,0,,0,0,65535
+0,731,DSI Errors,0,,0,0,65535
