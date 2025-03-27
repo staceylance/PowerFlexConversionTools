@@ -10,7 +10,7 @@ Structure: This system has the following file structure:
  
  This Script is intended to Automate the conversion problems going from a PF70 to a PF525. There are a few assumptions:
 
-	1) It will be an Ethernet Drive. If you have a DeviceNet PF70, you must first use the [DeviceNet PF70 Tool](https://github.com/staceylance/PowerFlexConversionTools/tree/main/DeviceNetConversionTool) I have written.
+	1) It will be an Ethernet Drive. If you have a DeviceNet PF70, you must first use the DeviceNet PF70 Tool I have written.
 	2) you can connect to the drive in CCW, or have a project file that contains the drive setup.
 
 
