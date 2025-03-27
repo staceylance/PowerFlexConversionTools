@@ -1,4 +1,4 @@
-name: RSNetworxTool
+name: DeviceNetConversionTool
 channels:
   - defaults
   - https://repo.anaconda.com/pkgs/main
