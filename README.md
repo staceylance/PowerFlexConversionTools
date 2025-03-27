@@ -1,6 +1,6 @@
 # PowerFlexConversionTools
-a Pair of tools for Migrating from PowerFlex 70 to PowerFlex 525.
-I experienced stumbles upgrading the (now obsolete) PF70 to the new PF525. So I wrote a pair of Migration Tools.
+- A Pair of tools for Migrating from PowerFlex 70 to PowerFlex 525.
+- I experienced stumbles upgrading the (now obsolete) PF70 to the new PF525. So I wrote a pair of Migration Tools.
 
 <ol>
     <li>If you are going from an Ethernet PF70 to an Ethernet PF525, the <a href="https://github.com/staceylance/PowerFlexConversionTools/tree/main/PF70-PF525EthernetConversionTool">Ethernet Conversion Tool </a>, written in Powershell, will work.</li>
