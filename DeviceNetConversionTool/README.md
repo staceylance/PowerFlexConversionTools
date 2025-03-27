@@ -1,7 +1,7 @@
 This tool will Convert the NetworkProperties.HTML file that RSNetworx exports for a given Network/Drive into a CSV which could be used for:
  <ol>
    <li>ConnectedComponents (for a Ethernet PF70)</li>
-   <li>Converting To a PF525 drive with the PF70-to-PF525-ConversionTool.</li>
+   <li>Converting To a PF525 drive with the <a href="https://github.com/staceylance/PowerFlexConversionTools/tree/main/PF70-PF525EthernetConversionTool">PF70-to-PF525-ConversionTool.</a></li>
  </ol>
 File Structure:
 
