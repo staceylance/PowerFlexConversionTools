@@ -4,12 +4,18 @@ This tool will Convert the NetworkProperties.HTML file that RSNetworx exports fo
 
 File Structure:
 
-  1) DeviceNetConversionTool
-    A) 00_Inputs
-     i) XAC151.csv (default file that is included in the Repo)
-       ii) DesiredNetworkPropertiesFile.HTML (Must be named 'Network Properties.html')
-  2) 01_Outputs
-  3)RSNetworxTool.py
+<ol>
+  <li>DeviceNetConversionTool
+     <ol>
+       <li>00_Inputs</li>
+           <ol>
+             <li>XAC151.csv (default file that is included in the Repo)</li>
+             <li>DesiredNetworkPropertiesFile.HTML (Must be named 'Network Properties.html')</li>
+           </ol>
+        <li>01_Outputs</li>
+     </ol>
+  <li>RSNetworxTool.py</li>
+</ol>
 
 Running the Python File will perform 4 things:
   1) Loop through the 'Network Properties.html', looking for any Powerflex 70 Drives
