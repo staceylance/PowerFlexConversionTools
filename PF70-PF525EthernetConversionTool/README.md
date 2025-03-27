@@ -27,6 +27,7 @@ To perform the Conversion:
 	<li>Connect to the drive in CCW.</li>
 	<li>Open the Parameters, ensure you are not filtering out any (not using non-default only button, nothing in search box), click "Export CSV"</li>
 	<li>Save CSV File as drive name in the 'PF Drive Upgrade/Inputs' folder</li>
+	<ol><li>Can be repeated for as many drives as you need to migrate, it will loop through and convert them all in one cycle</li></ol>
 	<li>Right Click PF70toPF525.ps1, click "Run with Powershell"</li>
 	<li>Once Black Terminal closes, 'PF Drive Upgrade/Outputs/PF5 Files' should have an identically named .PF5 file.</li>
 	<li>This file can be downloaded directly to the PF525, although I HIGHLY recommend importing the file into CCW to ensure nothing looks out of the ordinary.</li>
