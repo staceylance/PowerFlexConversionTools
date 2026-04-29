@@ -1,0 +1,198 @@
+Port,#,Name,Value,Units,Default,Min,Max
+0,1,Output Freq,0.0,Hz,0.0,0.0,999.9
+0,2,Commanded Freq,0.0,Hz,0.0,0.0,999.9
+0,3,Output Current,0.00,A,0.00,0.00,12.00
+0,4,Output Voltage,0.0,V,0.0,0.0,999.9
+0,5,DC Bus Voltage,0,V,0,0,1200
+0,6,Drive Status,00000000 00000000,,00000000 00000000,,
+0,7,Fault 1 Code,0,,0,0,9999
+0,8,Fault 2 Code,0,,0,0,9999
+0,9,Fault 3 Code,0,,0,0,9999
+0,10,Process Display,0,,0,0,9999
+0,11,Process Fract,0.00,,0.00,0.00,0.99
+0,12,Control Source,0,,0,0,255
+0,13,Contrl In Status,00000000 00000000,,00000000 00000000,,
+0,14,Dig In Status,00000000 00000000,,00000000 00000000,,
+0,15,Comm Status,00000000 00000000,,00000000 00000000,,
+0,16,Control SW Ver,0.00,,0.00,0.00,99.99
+0,17,Drive Type,0,,0,0,7000
+0,18,Elapsed Run Time,0,x10h,0,0,9999
+0,19,Testpoint Data,00000000 00000000,,00000000 00000000,,
+0,20,Analog In 0-10V,0.0,%,0.0,0.0,999.9
+0,21,Analog In 4-20mA,0.0,%,0.0,0.0,999.9
+0,22,Output Power,0.00,kW,0.00,0.00,99.99
+0,23,Output Powr Fctr,0.0,deg,0.0,0.0,999.9
+0,24,Drive Temp,0,C,0,0,120
+0,25,Counter Status,0,,0,0,9999
+0,26,Timer Status,0,Sec,0,0,9999
+0,27,Timer Stat Fract,0.0,,0.0,0.0,0.9
+0,28,Stp Logic Status,0,,0,0,8
+0,29,Torque Current,0.00,A,0.00,0.00,12.00
+0,30,Reserved,0,,0,0,0
+0,31,Motor NP Volts,460,V,460,20,460
+0,32,Motor NP Hertz,60,Hz,60,10,400
+0,33,Motor OL Current,6.0,A,6.0,0.0,12.0
+0,34,Minimum Freq,0.0,Hz,0.0,0.0,400.0
+0,35,Maximum Freq,60,Hz,60,0,400
+0,36,Start Source,Keypad,,Keypad,0,6
+0,37,Stop Mode,Ramp  CF,,Ramp  CF,0,9
+0,38,Speed Reference,Drive Pot,,Drive Pot,0,7
+0,39,Accel Time 1,10.0,Sec,10.0,0.0,600.0
+0,40,Decel Time 1,10.0,Sec,10.0,0.1,600.0
+0,41,Reset To Defalts,Ready/Idle,,Ready/Idle,0,1
+0,42,Reserved,0,,0,0,0
+0,43,Motor OL Ret,Disabled,,Disabled,0,1
+0,44,Reserved,0,,0,0,0
+0,45,Reserved,0,,0,0,0
+0,46,Reserved,0,,0,0,0
+0,47,Reserved,0,,0,0,0
+0,48,Reserved,0,,0,0,0
+0,49,Reserved,0,,0,0,0
+0,50,Reserved,0,,0,0,0
+0,51,Digital In1 Sel,Preset Freq,,Preset Freq,0,27
+0,52,Digital In2 Sel,Preset Freq,,Preset Freq,0,27
+0,53,Digital In3 Sel,Local,,Local,0,27
+0,54,Digital In4 Sel,Jog Forward,,Jog Forward,0,27
+0,55,Relay Out Sel,Ready/Fault,,Ready/Fault,0,24
+0,56,Relay Out Level,0,,0,0,9999
+0,57,Relay Out LevelF,0.0,,0.0,0.0,0.9
+0,58,Opto Out1 Sel,MotorRunning,,MotorRunning,0,24
+0,59,Opto Out1 Level,0,,0,0,9999
+0,60,Opto Out1 LevelF,0.0,,0.0,0.0,0.9
+0,61,Opto Out2 Sel,At Frequency,,At Frequency,0,24
+0,62,Opto Out2 Level,0,,0,0,9999
+0,63,Opto Out2 LevelF,0.0,,0.0,0.0,0.9
+0,64,Opto Out Logic,1=NO / 2=NO,,1=NO / 2=NO,0,3
+0,65,Analog Out Sel,OutFreq 0-10,,OutFreq 0-10,0,23
+0,66,Analog Out High,100,%,100,0,800
+0,67,Accel Time 2,20.0,Sec,20.0,0.0,600.0
+0,68,Decel Time 2,20.0,Sec,20.0,0.1,600.0
+0,69,Internal Freq,60.0,Hz,60.0,0.0,400.0
+0,70,Preset Freq 0,0.0,Hz,0.0,0.0,400.0
+0,71,Preset Freq 1,5.0,Hz,5.0,0.0,400.0
+0,72,Preset Freq 2,10.0,Hz,10.0,0.0,400.0
+0,73,Preset Freq 3,20.0,Hz,20.0,0.0,400.0
+0,74,Preset Freq 4,30.0,Hz,30.0,0.0,400.0
+0,75,Preset Freq 5,40.0,Hz,40.0,0.0,400.0
+0,76,Preset Freq 6,50.0,Hz,50.0,0.0,400.0
+0,77,Preset Freq 7,60.0,Hz,60.0,0.0,400.0
+0,78,Jog Frequency,10.0,Hz,10.0,0.0,400.0
+0,79,Jog Accel/Decel,10.0,Sec,10.0,0.1,600.0
+0,80,DC Brake Time,0.0,Sec,0.0,0.0,99.9
+0,81,DC Brake Level,0.3,A,0.3,0.0,10.8
+0,82,DB Resistor Sel,Disabled,%,Disabled,0,99
+0,83,S Curve %,0,%,0,0,100
+0,84,Boost Select,5.0  CT,,5.0  CT,0,14
+0,85,Start Boost,2.5,%,2.5,0.0,25.0
+0,86,Break Voltage,25.0,%,25.0,0.0,100.0
+0,87,Break Frequency,15.0,Hz,15.0,0.0,400.0
+0,88,Maximum Voltage,460,V,460,20,510
+0,89,Current Limit 1,9.0,A,9.0,0.0,10.8
+0,90,Motor OL Select,No Derate,,No Derate,0,2
+0,91,PWM Frequency,4.0,kHz,4.0,2.0,16.0
+0,92,Auto Rstrt Tries,0,,0,0,9
+0,93,Auto Rstrt Delay,1.0,Sec,1.0,0.0,120.0
+0,94,Start At PowerUp,Disabled,,Disabled,0,1
+0,95,Reverse Disable,REV Enabled,,REV Enabled,0,1
+0,96,Flying Start En,Disabled,,Disabled,0,1
+0,97,Compensation,Electrical,,Electrical,0,3
+0,98,SW Current Trip,0.0,A,0.0,0.0,12.0
+0,99,Process Factor,30.0,,30.0,0.1,999.9
+0,100,Fault Clear,Ready/Idle,,Ready/Idle,0,2
+0,101,Program Lock,0,,0,0,9999
+0,102,Testpoint Sel,00000100 00000000,,00000100 00000000,,
+0,103,Comm Data Rate,9600,,9600,0,5
+0,104,Comm Node Addr,100,,100,1,247
+0,105,Comm Loss Action,Fault,,Fault,0,3
+0,106,Comm Loss Time,5.0,Sec,5.0,0.1,60.0
+0,107,Comm Format,RTU 8-N-1,,RTU 8-N-1,0,5
+0,108,Language,English,,English,1,10
+0,109,Anlg Out Setpt,0.0,%,0.0,0.0,100.0
+0,110,Anlg In 0-10V Lo,0.0,%,0.0,0.0,100.0
+0,111,Anlg In 0-10V Hi,100.0,%,100.0,0.0,100.0
+0,112,Anlg In4-20mA Lo,0.0,%,0.0,0.0,100.0
+0,113,Anlg In4-20mA Hi,100.0,%,100.0,0.0,100.0
+0,114,Slip Hertz @ FLA,2.0,Hz,2.0,0.0,10.0
+0,115,Process Time Lo,0.00,,0.00,0.00,99.99
+0,116,Process Time Hi,0.00,,0.00,0.00,99.99
+0,117,Bus Reg Mode,Enabled,,Enabled,0,1
+0,118,Current Limit 2,9.0,A,9.0,0.0,10.8
+0,119,Skip Frequency,0,Hz,0,0,400
+0,120,Skip Freq Band,0.0,Hz,0.0,0.0,30.0
+0,121,Stall Fault Time,60 Seconds,,60 Seconds,0,5
+0,122,Analog In Loss,Disabled,,Disabled,0,6
+0,123,10V Bipolar Enbl,Uni-Polar In,,Uni-Polar In,0,1
+0,124,Var PWM Disable,Enabled,,Enabled,0,1
+0,125,Torque Perf Mode,Sensrls Vect,,Sensrls Vect,0,1
+0,126,Motor NP FLA,4.0,A,4.0,0.0,12.0
+0,127,Autotune,Ready/Idle,,Ready/Idle,0,2
+0,128,IR Voltage Drop,7.9,Vac,7.9,0.0,115.0
+0,129,Flux Current Ref,2.00,A,2.00,0.00,8.40
+0,130,PID Trim Hi,60.0,Hz,60.0,0.0,400.0
+0,131,PID Trim Lo,0.0,Hz,0.0,0.0,400.0
+0,132,PID Ref Sel,PID Disabled,,PID Disabled,0,8
+0,133,PID Feedback Sel,0-10V Input,,0-10V Input,0,2
+0,134,PID Prop Gain,0.01,,0.01,0.00,99.99
+0,135,PID Integ Time,2.0,Sec,2.0,0.0,999.9
+0,136,PID Diff Rate,0.00,1/s,0.00,0.00,99.99
+0,137,PID Setpoint,0.0,%,0.0,0.0,100.0
+0,138,PID Deadband,0.0,%,0.0,0.0,10.0
+0,139,PID Preload,0.0,Hz,0.0,0.0,400.0
+0,140,Stp Logic 0,00000000 11110001,,00000000 11110001,,
+0,141,Stp Logic 1,00000000 11110001,,00000000 11110001,,
+0,142,Stp Logic 2,00000000 11110001,,00000000 11110001,,
+0,143,Stp Logic 3,00000000 11110001,,00000000 11110001,,
+0,144,Stp Logic 4,00000000 11110001,,00000000 11110001,,
+0,145,Stp Logic 5,00000000 11110001,,00000000 11110001,,
+0,146,Stp Logic 6,00000000 11110001,,00000000 11110001,,
+0,147,Stp Logic 7,00000000 11110001,,00000000 11110001,,
+0,148,Reserved,0,,0,0,0
+0,149,Reserved,0,,0,0,0
+0,150,Stp Logic Time 0,30.0,Sec,30.0,0.0,999.9
+0,151,Stp Logic Time 1,30.0,Sec,30.0,0.0,999.9
+0,152,Stp Logic Time 2,30.0,Sec,30.0,0.0,999.9
+0,153,Stp Logic Time 3,30.0,Sec,30.0,0.0,999.9
+0,154,Stp Logic Time 4,30.0,Sec,30.0,0.0,999.9
+0,155,Stp Logic Time 5,30.0,Sec,30.0,0.0,999.9
+0,156,Stp Logic Time 6,30.0,Sec,30.0,0.0,999.9
+0,157,Stp Logic Time 7,30.0,Sec,30.0,0.0,999.9
+0,158,Reserved,0,,0,0,0
+0,159,Reserved,0,,0,0,0
+0,160,EM Brk Off Delay,2.00,Sec,2.00,0.00,10.00
+0,161,EM Brk On Delay,2.00,Sec,2.00,0.00,10.00
+0,162,MOP Reset Sel,Save MOP Ref,,Save MOP Ref,0,1
+0,163,DB Threshold,100.0,,100.0,10.0,110.0
+0,164,Comm Write Mode,Save,,Save,0,1
+0,165,Anlg Loss Delay,0.0,Sec,0.0,0.0,20.0
+0,166,Analog In Filter,0,,0,0,14
+0,167,PID Invert Error,Not Inverted,,Not Inverted,0,1
+1,1,Mode,Single Drv,,Single Drv,0,1
+1,2,BOOTP,Enabled,,Enabled,0,1
+1,3,IP Addr Cfg 1,0,,0,0,255
+1,4,IP Addr Cfg 2,0,,0,0,255
+1,5,IP Addr Cfg 3,0,,0,0,255
+1,6,IP Addr Cfg 4,0,,0,0,255
+1,7,Subnet Cfg 1,0,,0,0,255
+1,8,Subnet Cfg 2,0,,0,0,255
+1,9,Subnet Cfg 3,0,,0,0,255
+1,10,Subnet Cfg 4,0,,0,0,255
+1,11,Gateway Cfg 1,0,,0,0,255
+1,12,Gateway Cfg 2,0,,0,0,255
+1,13,Gateway Cfg 3,0,,0,0,255
+1,14,Gateway Cfg 4,0,,0,0,255
+1,15,EN Rate Cfg,Autodetect,,Autodetect,0,4
+1,16,EN Rate Act,No Link,,No Link,0,5
+1,17,Reset Module,Ready,,Ready,0,2
+1,18,Comm Flt Action,Fault,,Fault,0,4
+1,19,Idle Flt Action,Fault,,Fault,0,4
+1,20,Flt Cfg Logic,00000000 00000000,,00000000 00000000,,
+1,21,Flt Cfg Ref,0,,0,0,65535
+1,22,DSI I/O Cfg,Drv 0,,Drv 0,0,4
+1,23,DSI I/O Act,00000000 00000000,,00000000 00000000,,
+1,24,Drv 0 Addr,100,,100,1,247
+1,25,Drv 1 Addr,101,,101,1,247
+1,26,Drv 2 Addr,102,,102,1,247
+1,27,Drv 3 Addr,103,,103,1,247
+1,28,Drv 4 Addr,104,,104,1,247
+1,29,Web Enable,Disabled,,Disabled,0,1
+1,30,Web Features,00000000 00000011,,00000000 00000011,,
