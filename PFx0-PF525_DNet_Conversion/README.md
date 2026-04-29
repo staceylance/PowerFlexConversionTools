@@ -70,7 +70,7 @@ This notebook:
 The repository uses a fixed directory layout to separate inputs, templates,
 working data, and generated outputs.
 
-
+```text
 PFx0_PF525_DNet_Conversion/
 │
 ├── DNetConversion.ipynb
@@ -108,6 +108,7 @@ PFx0_PF525_DNet_Conversion/
 │           Generated CSV files intended for
 │           project-level programming and review.
 
+```
 
 ## Requirements
 
