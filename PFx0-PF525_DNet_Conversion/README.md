@@ -101,14 +101,14 @@ This notebook:
 
 
 ## Input / Output
-###Input
+### Input
 
 - RSNetWorx NetworkProperties HTML
 > Contains DeviceNet configuration and parameter data
 
 
 
-###Output
+### Output
 
 - PF5 files
 
@@ -122,19 +122,19 @@ This notebook:
 
 
 
-##Parameter Mapping
+## Parameter Mapping
 
 - All standard parameters are mapped from PF70 / PF40 to PF525 equivalents
 - Mapping assumes typical configurations
 
-##Manual Review Required
+## Manual Review Required
 
 - IP address and subnet must be manually entered
 - Exotic or uncommon parameters have not been fully tested
 - Engineering review is mandatory before commissioning
 
 
-##Known Limitations
+## Known Limitations
 
 - Not tested with unusual or rarely used parameters
 - Assumes RSNetWorx HTML structure is unmodified
@@ -142,7 +142,7 @@ This notebook:
 - No automatic validation against physical wiring or external hardware
 
 
-#Validation Checklist (Strongly Recommended)
+# Validation Checklist (Strongly Recommended)
 Before applying output to hardware:
 
 - Verify motor nameplate data
@@ -153,7 +153,7 @@ Before applying output to hardware:
 - Test in a non‑production environment
 
 
-##Disclaimer
+## Disclaimer
 This software is provided “as is”, without warranty of any kind.
 The author accepts no responsibility or liability for:
 
