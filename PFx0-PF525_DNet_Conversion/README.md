@@ -64,6 +64,51 @@ This notebook:
 
 ---
 
+
+## Repository Structure
+
+The repository uses a fixed directory layout to separate inputs, templates,
+working data, and generated outputs.
+
+
+PFx0_PF525_DNet_Conversion/
+│
+├── DNetConversion.ipynb
+│   Main Jupyter Notebook used to parse RSNetWorx DeviceNet
+│   NetworkProperties HTML files and generate PF525 outputs.
+│
+├── Inputs/
+│   ├── Templates/
+│   │   Parameter templates used during conversion.
+│   │
+│   │   ├── PF40Template.csv
+│   │   ├── PF70Template.csv
+│   │   └── PF525Template.csv
+│   │
+│   └── NetworkProperties.html
+│       RSNetWorx DeviceNet NetworkProperties export file.
+│
+├── Outputs/
+│   └── PF5 Files/
+│       Generated PF5 files for local programming of
+│       PowerFlex 525 drives.
+│
+└── WorkingFolder/
+│   Temporary working area used during conversion.
+│
+│   ├── Inputs/
+│   │   ├── PF40/
+│   │   │   Parsed PF40 drive data
+│   │   │
+│   │   └── PF70/
+│   │       Parsed PF70 drive data
+│   │
+│   └── Outputs/
+│       └── CSV Files/
+│           Generated CSV files intended for
+│           project-level programming and review.
+
+
 ## Requirements
 
 ### Runtime
